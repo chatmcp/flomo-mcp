@@ -8,10 +8,8 @@ Write notes to flomo.
 {
   "mcpServers": {
     "flomo-mcp": {
-      "command": "node",
-      "args": [
-        "/Users/idoubi/code/all-in-aigc/chatmcp/flomo-mcp/build/index.js"
-      ],
+      "command": "npx",
+      "args": ["-y", "flomo-mcp"],
       "env": {
         "FLOMO_API_URL": "https://flomoapp.com/iwh/xxx/xxx/"
       }
