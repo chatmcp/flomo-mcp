@@ -1,8 +1,8 @@
 {
   "name": "flomo-mcp",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "write notes to flomo",
-  "private": true,
+  "private": false,
   "type": "module",
   "bin": {
     "flomo-mcp": "./build/index.js"
